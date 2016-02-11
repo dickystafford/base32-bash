@@ -2,7 +2,7 @@
 Base32 encoding / decoding, written in bash with minimal dependencies
 
 Usage:
-  base32.sh < input > output
+  base32.sh [-d] < input > output
 
 This script requires only sed in addition to the magic that is bash. It may prove to be useful if you
 need this facility on a machine, or appliance, where you are not able or permitted to install packages.
